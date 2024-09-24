@@ -62,8 +62,9 @@ public class Ejercicio3 {
 
             // 6
             Files.readAllLines(Path.of("files/wiki.txt"))
-                    .stream().flatMap(s -> Arrays.stream(s.split("\\s+")))
+                    .stream().flatMap(s -> Arrays.stream(s.split("[\\s\\p{Punct}]+")))
                     .filter(w -> w.length() > 5)
+                    .
 
         } catch (IOException e){
             System.err.println("Error...");
