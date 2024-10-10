@@ -24,9 +24,7 @@ public class FileListing {
         Path path = Path.of("files");
 
         try(Stream<Path> stream = Files.find(path, Integer.MAX_VALUE, (p, attr) -> attr.isRegularFile())) {
-            stream.forEach(path1 ->
-
-            {
+            stream.forEach(path1 -> {
                 try {
                     System.out.println(path1.getFileName().toString()
                     + " " + Files.size(path1));

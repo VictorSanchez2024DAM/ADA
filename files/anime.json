@@ -1,0 +1,68 @@
+{
+  "mainCharacter": {
+    "name": "Naruto Uzumaki",
+    "age": 12,
+    "abilities": [
+      "Rasengan",
+      "Shadow Clone Jutsu"
+    ],
+    "isGenin": true,
+    "friends": [
+      {
+        "name": "Sasuke Uchiha",
+        "clan": "Uchiha",
+        "skills": [
+          "Sharingan",
+          "Chidori"
+        ]
+      },
+      {
+        "name": "Sakura Haruno",
+        "clan": "null",
+        "skills": [
+          "Medical Ninjutsu"
+        ]
+      }
+    ]
+  },
+  "episodes": 220,
+  "hasFinished": true,
+  "villains": [
+    {
+      "name": "Orochimaru",
+      "organization": "null"
+    },
+    {
+      "name": "Itachi Uchiha",
+      "organization": "null"
+    },
+    {
+      "name": "Pain",
+      "organization": "Akatsuki"
+    }
+  ],
+  "ratings": {
+    "IMDb": 8.3,
+    "MyAnimeList": 7.9
+  },
+  "seasons": [
+    {
+      "seasonNumber": 1,
+      "episodes": 57
+    },
+    {
+      "seasonNumber": 2,
+      "episodes": 43
+    },
+    {
+      "seasonNumber": 3,
+      "episodes": 41,
+      "specialEpisodes": [
+        {
+          "title": "Konoha Sports Festival",
+          "lengthMinutes": 11
+        }
+      ]
+    }
+  ]
+}

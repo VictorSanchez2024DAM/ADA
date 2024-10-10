@@ -69,6 +69,7 @@ public class Ejercicio3 {
                     .map(String::toLowerCase)
                     .collect(Collectors.toMap(w -> w, w -> 1, Integer::sum));
 
+
             wordCountText.entrySet().stream()
                     .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
                     .limit(10)
